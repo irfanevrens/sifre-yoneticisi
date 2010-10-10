@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+*	author : Sercan Aksoy
+*	site   : http://buraya.com 
+*	copyright : http://buraya.com
+*	reply-to  : sercan@buraya.com
+*	date      : 2010-09-10T11:35
+*   Css       : Css 2 and Css 3
+*/
+	
+	/*Css sıfırlama kodlarının bulunduğu Css dosyası amacımız tüm siteyi tarayıcılarda aynı düzende göstermek.*/
+	@import url('_reset.css');
+	
+	/*Sayfada iskelet ile alakalı düzenlemeler bu css dosyasında bulunmaktadır.*/
+	@import url('_iskelet.css'); 
+	
+	/*Sayfadaki renkler ile alakalı kodlar bu sayfada yer almaktadır.*/
+	@import url('_renk.css'); 
+
+	/*Dışarıdan eklenen harici fontların yer aldığı css dosyasıdır.*/
+	@import url('_font.css'); 
+
+	

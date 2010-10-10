@@ -1,0 +1,63 @@
+body {text-align:center; }
+
+/*Şifre giriş sayfası*/
+div#sifreGenelIcerik {width:820px; margin:80px auto; text-align:left;  }
+div#sifreSolBolum {width:475px; float:left; }
+div#sifreSolBolum h3 {height:47px; background: url('icon/logo.png') no-repeat left center; padding-left:60px;}
+div#sifreSolBolum h3  em{margin:-10px 0 0 150px;}
+div#sifreSolBolum  ul {width:380px; list-style-type:none; margin:45px 0 0 60px;}
+div#sifreSolBolum  ul  li{background:url('icon/mavitik.png') no-repeat 0 5px; padding-left:23px; margin-top:20px;} 
+div#sifreSagBolum {position:relative; width:285px; padding:0 0 30px 15px; float:right; border-width:1px; border-style:solid;}
+div#sifreSagBolum label {display:block; margin-top:30px; font-weight:bold; color:#555; }
+div#sifreSagBolum  input[type="text"], div#sifreGenelIcerik  div#sifreSagBolum  input[type="password"]{width:250px; height:32px; border-width:1px; border-style:solid; padding-left:5px;}
+div#sifreSagBolum div.cevap {height:20px; line-height:20px; margin-top:15px; }
+div#sifreSagBolum  input[type="submit"] {width:183px; height:34px; margin:20px 0 0 30px; border-width:0 1px 1px 0; border-style:solid }
+div#sifreSagBolum #sifreDuzenle {display:none;}
+div#sifreSagBolum img:hover {cursor:pointer; }
+div#ustSekil  {position:absolute; width:100px; height:39px; background:url('icon/ustsekil.png') no-repeat 0 0;  top:-40px; left:90px; }
+
+/*İçerik sayfa kısmına ait css kodları*/
+div#sayfaGenelIcerik {width:1000px; margin:80px auto; text-align:left;  }
+div#sayfaSolBolum { width:650px; float:left; }
+div#sagAlan {width:285px; float:right; }
+div#sayfaSolBolum input#arama {width:400px; height:30px;  margin:auto; margin:0 0 20px 125px;  border:none; display:none;}
+div#icerik table {width:660px; }
+div#icerik table  td,th{border-width:1px 1px 1px 0; border-style:solid; padding:3px 8px;}
+div#icerik table thead th.borderAta,div#icerik table tbody td.borderAta {border-left-width:thin; border-left-style:solid;  }
+div#icerik table tbody tr {cursor:pointer} 
+div#icerik table tbody td {border-width:0 1px 1px 0; }
+
+/*Sağ taraf linkler*/
+ul#linkler {list-style-type:none; margin-top:30px;}
+#sagAlan ul#linkler li {background:url('icon/tik.png') no-repeat left center; }
+#sagAlan ul#linkler li:hover {background:url('icon/tikh.png') no-repeat left center; }
+#sagAlan ul#linkler li a:link {margin-left:20px; text-decoration:none; }
+
+/*Sayfa arka planını karanlık yap*/
+div#ekran {width:100%;  position:fixed; left:0; top:0; z-index:89; display:none;}
+div#islem {width:500px; height:240px;  position:fixed; z-index:90; display:none; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+div#islem h2 {margin:15px 0;}
+div#islem span {line-height:40px;}
+div#islem a {text-decoration:none; display:block; padding:5px 12px; margin-top:5px;}
+/*Arama aracı*/
+div#arama {width:250px; height:140px;  position:absolute; left:80px; bottom:-10px; z-index:97; border-width:thin; border-style:solid; -webkit-border-radius:10px 2px 10px 10px; -moz-border-radius:10px 2px 10px 10px; border-radius:10px 2px 10px 10px; cursor:move;}
+div#arama h1 {margin:15px 0;}
+div#arama input {width:200px; height:20px; }
+div#arama #kapat {position:absolute; right:-10px; top:-10px; width:24px; height:24px; background:url('icon/kapat.png') no-repeat 0 0; cursor:pointer; }
+/*Genel site içinde kullanılan araçlar*/
+div.temizle {clear:both; }
+
+/*Vazgeç ve yeni şifre butonları*/
+#yeniSifre,#vazgec {width:22px; height:22px; background-repeat:no-repeat; background-position:0 0; float:right; margin:25px 10px 0 0; cursor:pointer; display:none;}
+#yeniSifre {background-image:url('icon/yenisifre.png')}
+#vazgec {background-image:url('icon/vazgec.png')}
+
+/*td şifre copy*/
+td input.sifreCopy {border:none; background:none; color:#555; outline:0; cursor:pointer; width:100px;}
+
+/*Yardım kutusu */
+div#yardimKutusu {width:600px; height:320px;  position:fixed; z-index:92; display:none; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; text-align:left;}
+div#yardimKutusu ul {list-style:none; padding:10px; }
+div#yardimKutusu li {background:url('icon/yesiltik.png') no-repeat 0 5px; padding-left:20px; margin-top:5px;}
+div#yardimKutusu div#kapatYardim {position:absolute; right:-10px; top:-10px; width:24px; height:24px; background:url('icon/kapat.png') no-repeat 0 0; cursor:pointer; }
+

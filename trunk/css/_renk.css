@@ -1,0 +1,38 @@
+/*Giriş sayfa css kodları*/
+div#sifreSolBolum  ul  li{color:#555;} 
+div#sifreSagBolum {border-color:#B4D0FC; background-color:#E5EFFE; }
+div#sifreSagBolum label {color:#555; }
+div#sifreSagBolum  input[type="text"], div#sifreGenelIcerik  div#sifreSagBolum  input[type="password"] {border-color:#B4D0FC; background-color:#FFF;}
+div#sifreSagBolum div.cevap {color:#555;}
+div#sifreSagBolum  input[type="submit"] {background-color:#B4D0FC; color:#555;  border-color:#ccc;}
+
+/*sayfa içerik css kodları*/
+div#icerik table thead th,div#icerik table tbody td{border-color:#B4D0FC; color:#555; background-color:#E5EFFE; }
+div#icerik table  th{color:#474747;}
+div#icerik table thead th.borderAta,div#icerik table tbody td.borderAta {border-left-color:#B4D0FC;}
+div#icerik table tbody tr:nth-child(even) td { background-color:#FFF;}
+div#icerik table tbody tr:hover td { background-color:#FFDF9D;}
+
+/*sol alan linkler*/
+#sagAlan ul#linkler li a {color:#555;}
+
+/*İçerik sayfa kısmına ait css kodları*/
+div#sayfaSolBolum input#arama {background-color:#76A8CE;}
+
+/*Sayfa arka planını karanlık yap*/
+div#ekran {background-color:#555; opacity:0.5; filter:alpah(opacity=50)}
+div#islem {background:#fff; -webkit-box-shadow:0 0 10px #000; -moz-box-shadow:0 0 10px #000; box-shadow:0 0 10px #000;}
+div#islem a {background:#E5EFFE; color:#555; }
+div#islem a:hover {background:#FFDF9D;  }
+
+/*Arama aracı*/
+div#arama {display:none; background:#E5EFFE; color:#555;  border-color:#B4D0FC; -webkit-box-shadow:0 0 10px #555; -moz-box-shadow:0 0 10px #000; box-shadow:0 0 10px #000;}
+
+/*Ana sayfa strong link*/
+
+strong a {text-decoration:none; color:#555;}
+strong a:hover {color:#d93636;}
+
+/*Yardım kutusu */
+div#yardimKutusu {background:#fff; -webkit-box-shadow:0 0 10px #000; -moz-box-shadow:0 0 10px #000; box-shadow:0 0 10px #000;}
+div#yardimKutusu ul {color:#555;}
