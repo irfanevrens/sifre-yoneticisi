@@ -1,0 +1,7 @@
+
+* {margin:0; padding:0;}
+a {text-decoration:underline;}
+b,strong {font-weight:bold;}
+ins,u {text-decoration:underline;}
+i,em,adress,cite{font-style:italic;}
+q:after,blockquote:after ,q:before,blockquote:before {content:'"';}

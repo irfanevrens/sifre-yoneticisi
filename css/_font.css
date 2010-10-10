@@ -1,0 +1,25 @@
+/*Şifre giriş sayfası*/
+div#sifreSolBolum h3 {font:38px 'Trebuchet MS';}
+div#sifreSolBolum h3 em {display:block; font:14px 'Trebuchet MS'; }
+div#sifreSolBolum  ul  li{font:14px/150% tahoma;}
+div#sifreSagBolum div.cevap {font:13px 'Trebuchet MS';}
+div#sifreSagBolum  input[type="submit"] {font:15px 'Trebuchet MS';}
+
+/*sayfa içerik css kodları*/
+div#icerik ,div#icerik table  {font-family:'Trebuchet MS';}
+
+
+/*Sayfa arka planını karanlık yap*/
+div#islem {font-family:'Trebuchet MS';}
+div#islem a {font-weight:bold; }
+
+/*Arama Yapılan Kutu*/
+div#arama {font-family:'Trebuchet MS';}
+div#arama h1 {font-size:22px;}
+div#arama input {line-height:20px;}
+
+/*td şifre copy*/
+td input.sifreCopy {font:inherit;}
+
+/*Yardım kutusu */
+div#yardimKutusu  {font-family:'Trebuchet MS';}
