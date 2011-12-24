@@ -1,0 +1,8 @@
+#labels kurulum,Featured
+#Bu döküman şifre yöneticisinin kurulumu hakkındadır.
+
+= Giriş =
+
+ * Proje/sql.sql dosyasını öncelikle çalıştırınız. 
+ * baglan.php içindeki veritanı bağlantı ayarlarını kendinize göre değiştiriniz.
+ * kontrol/sifre.php içinde kullanıcı bilgilerinizi belirleyiniz.
